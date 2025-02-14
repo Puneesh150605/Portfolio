@@ -9,7 +9,7 @@ const Hero = () => {
             Crafting Digital <span className="text-teal-500">Experiences</span>
           </h1>
           <p className="text-xl text-gray-400 mb-8" data-aos="fade-right" data-aos-delay="200">
-            Hi, I'm Puneesh Hingorani. A passionate Full Stack Developer specializing in building exceptional digital
+            Hi, I'm Puneesh Hingoran. A passionate Full Stack Developer specializing in building exceptional digital
             experiences.
           </p>
           <div className="flex items-center gap-6">
