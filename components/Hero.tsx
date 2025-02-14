@@ -12,17 +12,19 @@ const Hero = () => {
             Hi, I'm Puneesh Hingorani. A passionate Full Stack Developer specializing in building exceptional digital
             experiences.
           </p>
-          <a
-            href="#contact"
-            className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-3 px-8 rounded-full transition duration-300"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            Get In Touch
-          </a>
+          <div className="flex items-center gap-6">
+            <a
+              href="#contact"
+              className="bg-teal-500 hover:bg-teal-600 text-gray-900 font-bold py-3 px-8 rounded-full transition duration-300"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              Get In Touch
+            </a>
+          </div>
         </div>
         <div className="lg:w-1/2 mb-8 lg:mb-0" data-aos="fade-left">
-          <Image src="/profile.jpg" alt="John Doe" width={400} height={400} className="rounded-full mx-auto" />
+          <Image src="phh.png" alt="John Doe" width={800} height={800}/>
         </div>
       </div>
     </section>
@@ -30,4 +32,3 @@ const Hero = () => {
 }
 
 export default Hero
-

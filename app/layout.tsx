@@ -6,7 +6,7 @@ import React from "react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Your Name - Web Developer Portfolio",
+  title: "Puneesh Hingorani - Web Developer Portfolio",
   description: "Showcasing cutting-edge web development projects and skills",
   generator: "v0.dev",
 };
