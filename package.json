@@ -4,13 +4,14 @@
   "private": true,
   "homepage": "https://Puneesh150605.github.io/Portfolio",
     "scripts": {
-    "predeploy": "next build && next export",
-    "deploy": "gh-pages -d out",
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
-    "lint": "next lint"
-  },
+  "predeploy": "next build",
+  "deploy": "gh-pages -d .next",
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+},
+
 
   "dependencies": {
     "@emotion/is-prop-valid": "latest",
