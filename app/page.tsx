@@ -8,7 +8,9 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
+import Services from "./components/Services";// New import
 import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials"; // New import
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -29,7 +31,9 @@ export default function Home() {
      <Hero />
       <AboutMe />
       <Projects />
+      <Services />
       <Skills />
+      <Testimonials />
       <Contact />
       <Footer /> 
     </main>
